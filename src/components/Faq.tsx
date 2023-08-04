@@ -3,24 +3,24 @@ import { ChevronDownIcon } from "@heroicons/react/24/solid";
 
 const faqitems = [
   {
-    question: "What is your refund policy?",
+    question: "Apakah antena digital dam parabola cocok untuk semua jenis TV ?",
     response:
-      "If youre unhappy with your purchase for any reason, email us within 90 days and well refund you in full, no questions asked.",
+      " Ya. Antena digital dan parabola cocok untuk semua jenis TV. Baik TV tabung maupun TV layar datar LCD dan LED. Namun ada beberapa tipe TV tabung yang tidak bisa mengeluarkan gambar berwarna, hanya hitam putih. tapi sangat jarang.",
   },
   {
-    question: "Do you offer technical support?",
+    question: "Apakah antena parabola sudah siaran digital ?",
     response:
-      "No, we dont offer technical support for free downloads. Please purchase a support plan to get 6 months of support.",
+      "Ya, semua siaran channel parabola sudah berteknologi digital , suara dan gambar jernih.",
   },
   {
-    question: "What is your refund policy? If youre unhappy with your purchase for any reasonIf youre unhappy with your purchase for any reasonIf youre unhappy with your purchase for any reason",
+    question: "Apakah parabola bisa menangkap siaran semacam channel Film, Bola, Liga Indonsesia, National Geographic, Discovery Channel, Animal Planet dan lain sebagainya ? ",
     response:
-      "If youre unhappy with your purchase for any reason, email us within 90 days and well refund you in full, no questions asked.",
+      "Bisa, tetapi dengan menggunakan dekoder khusus yang mendukung sistem voucher TV berbayar. Channel-channel tersebut umumnya hanya ada di TV berbayar, yang mana untuk menikmatinya Anda harus membayar biaya bulanan (untuk postpaid) atau voucher untuk sistem prepaid. Biasanya kami solusikan dengan dekoder multi fungsi (bisa untuk channel free dan berbayar) yang bisa diisi voucher jika ingin menikmati channel berbayar.",
   },
   {
-    question: "What forms of payment do you accept?",
+    question: "Apa bedanya parabola mini Ku-Band dengan parabola besar C-Band serta kekurangan dan kelebihannya ?",
     response:
-      "You can use any debit or credit card to pay for a subscription. We secure your card details and process payments via Stripe. Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
+      " Parabola mini ukuran antena parabolanya kecil dan tidak makan tempat, serta memiliki kelebihan sinyal yang sangat baik walaupun menggunakan parabola berukuran mini. Namun Sinyal KU-Band dapat terganggu oleh cuaca, terutama jika hujan deras, tayangan bisa hilang untuk sementara waktu. Parabola besar dengan menggunakan frekuensi C-band yang membutuhkan Parabola yang lebih besar dari Ku-Band ukuran antena parabolanya +- 2 meteran. Akan tetapi sinyal C-Band tahan terhadap cuaca, walaupun hujan deras, tayangan tetap bisa dinikmati dengan baik. Kekuranngannya kalo ada angin kencang sekali, antena parabola suka berubah yang akan mengakibatkan no signal.",
   },
 ];
 

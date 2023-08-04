@@ -9,9 +9,9 @@ const Layout = (props: any) => {
   const { children, ...customMeta } = props;
   const router = useRouter();
   const meta = {
-    title: "Halley",
-    description: `Halley is a landing page template built with Nextjs and Tailwindcss`,
-    image: "/images/seo/halley-banner.png",
+    title: "Raffa Parabola",
+    description: `Layanan Pemasangan Antena TV Digital & Parabola. Dan Jual Antena Digital UHF, Parabola, Receiver, Set Top Box, LNB dan Parts lainnya.`,
+    image: "/images/seo/raffaparabola.webp",
     type: "website",
     ...customMeta,
   };
@@ -24,7 +24,7 @@ const Layout = (props: any) => {
         <meta content={meta.description} name="description" />
         <meta
           property="og:url"
-          content={`https://halley.vercel.app${router.asPath}`}
+          content={`https://www.parabola.id${router.asPath}`}
         />
           <meta property="og:type" content="website" />
         <meta property="og:site_name" content={meta.title} />

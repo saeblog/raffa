@@ -5,7 +5,7 @@ import ThemeSwitchOption from "./ThemeSwitchOption";
 const social = [
   {
     name: "facebook",
-    href: "https://www.facebook.com/",
+    href: "https://www.facebook.com/raffaparabola",
     icon: (
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="none">
         <path
@@ -17,7 +17,7 @@ const social = [
   },
   {
     name: "instagram",
-    href: "https://www.instagram.com/",
+    href: "https://www.instagram.com/raffa_parabola/",
     icon: (
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" fill="none">
         <path
@@ -43,7 +43,7 @@ const social = [
 
   {
     name: "linkedin",
-    href: "https://www.linkedin.com/",
+    href: "https://www.linkedin.com/in/raffaparabola/",
     icon: (
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" fill="none">
         <path
@@ -64,16 +64,16 @@ const column1 = [
 ];
 
 const column2 = [
+  { name: "Master Parabola", href: "https://www.parabola.id"},
+  { name: "Parabola Mini", href: "https://www.parabola.id/search/label/parabola%20mini"},
+  { name: "Parabola Besar", href: "https://www.parabola.id/search/label/parabola%20jaring"},
   { name: "Not Found 404", href: "404" },
-  { name: "Documentation", href: "/" },
-  { name: "Guides", href: "/" },
-  { name: "Help", href: "/" },
 ];
 
 const column3 = [
-  { name: "Privacy Policy", href: "/" },
-  { name: "Terms of Service", href: "/" },
-  { name: "Support Terms", href: "/" },
+  { name: "Area Layanan", href: "https://www.parabola.id/p/area-layanan.html" },
+  { name: "Dish pointing", href: "https://www.parabola.id/p/blog-page_17.html"},
+  { name: "Sitemap", href: "#" },
 ];
 
 export default function Footer() {
@@ -84,8 +84,8 @@ export default function Footer() {
           <Link href="/">
             <Image
               className="h-8 w-auto"
-              src="/images/logos/logo-rose.svg"
-              alt="Logo Your Company"
+              src="/images/logos/logo-raffa.png"
+              alt="Logo Raffa Parabola"
               width={150}
               height={150}
               quality={75}
@@ -94,8 +94,7 @@ export default function Footer() {
           </Link>
 
           <p className="md:text-sm pt-4 w-auto sm:w-6/12 md:w-6/12 lg:w-8/12">
-            Halley is ipsum dolor sit amet consectetur adipisicing itaque enim
-            labore dolores culpa consequatur harum.
+            Layanan pemasangan , penjualan dan perbaikan antena parabola dan digital.
           </p>
 
           <div className="flex gap-2 pt-6 sm:pt-6 md:pt-6 lg:pt-12 max-w-[300px]">
@@ -126,12 +125,13 @@ export default function Footer() {
 
         <div>
           <h3 className="text-sm md:text-xs font-bold pb-4 pt-12 lg:pt-0">
-            RESOURCES
+            PRODUCT
           </h3>
           {column2.map((item) => (
             <Link
               key={item.name}
               href={item.href}
+              target="_blank"
               className="hover:text-rose-500 md:text-sm my-4 grid"
             >
               {item.name}
@@ -141,12 +141,13 @@ export default function Footer() {
 
         <div>
           <h3 className="text-sm md:text-xs font-bold pb-4 pt-12 lg:pt-0">
-            LEGAL
+            SUPPORT
           </h3>
           {column3.map((item) => (
             <Link
               key={item.name}
               href={item.href}
+              target="_blank"
               className="hover:text-rose-500 md:text-sm my-4 grid"
             >
               {item.name}
@@ -160,11 +161,11 @@ export default function Footer() {
 
       <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8 p-6 text-center border-t border-neutral-800">
         <Link
-          href="https://humbernieto.pro"
+          href="https://www.parabola.id"
           target="_blank"
           className="text-neutral-300 dark:text-neutral-400 text-sm hover:text-rose-500 dark:hover:text-rose-500 transition duration-300"
         >
-          &copy; Copyright {new Date().getFullYear()}. All rights reserved.
+          &copy; Copyright {new Date().getFullYear()}. Raffa Parabola - www.parabola.id - All rights reserved.
         </Link>
       </div>
     </footer>

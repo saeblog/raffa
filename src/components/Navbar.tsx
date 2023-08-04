@@ -11,7 +11,7 @@ const navigation = [
   { name: "Services", href: "#services", current: false },
   { name: "Pricing", href: "#pricing", current: false },
   { name: "Faq", href: "#faq", current: false },
-  { name: "Contact", href: "#contact", current: false },
+  { name: "Blog", href: "#blogs", current: false },
 ];
 
 function classNames(...classes: any) {
@@ -33,8 +33,8 @@ export default function Navbar() {
                   <Link href="/">
                     <Image
                       className="block h-8 w-auto"
-                      src="/images/logos/logo-rose.svg"
-                      alt="Logo Your Company"
+                      src="/images/logos/parabolax.webp"
+                      alt="logo sae"
                       width={150}
                       height={150}
                       quality={75}
@@ -65,12 +65,13 @@ export default function Navbar() {
 
                 <div className="absolute inset-y-0 right-10 sm:right-0 flex items-center gap-2">
                   <Link
-                    href="https://github.com/humberni/halley"
+                    href="https://bit.ly/3LETxZR"
                     target="_blank"
+                    rel="noreferrer noopener"
                     className="hidden sm:block"
                   >
-                    <button className="bg-neutral-900 dark:bg-white text-white dark:text-neutral-900 px-4 p-2 text-base font-medium dark:hover:bg-rose-500 hover:bg-rose-500 hover:text-white dark:hover:text-white rounded-full">
-                      GitHub
+                    <button className="bg-green-700 dark:bg-white text-white dark:text-neutral-900 px-4 p-2 text-base font-medium dark:hover:bg-rose-500 hover:bg-rose-500 hover:text-white dark:hover:text-white rounded-full">
+                      Whatsapp
                     </button>
                   </Link>
                   <ThemeSwitchButton />
@@ -109,9 +110,9 @@ export default function Navbar() {
                   {item.name}
                 </Disclosure.Button>
               ))}
-              <Link href="https://github.com/humberni/halley" target="_blank">
-                <button className="mt-12 bg-rose-500 text-white px-4 p-3 font-medium rounded-full w-full">
-                  GitHub
+              <Link href="https://bit.ly/3LETxZR" target="_blank" rel="noreferrer noopener">
+                <button className="mt-12 bg-green-700 text-white px-4 p-3 font-medium rounded-full w-full">
+                  Whatsapp
                 </button>
               </Link>
             </div>

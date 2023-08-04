@@ -2,44 +2,44 @@ import Image from "next/image";
 
 const services = [
   {
-    title: "Dolorum molestiae",
+    title: "Hak milik",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit laudantium",
+      "Semua perangkat parabola menjadi hak milik selamanya",
     image: "/images/services/1.svg",
     alt: "Service description",
   },
   {
-    title: "Commodi mollitia",
+    title: "Sekali bayar",
     description:
-      "Nemo quos doloribus quo omnis mollitia nostrum excepturi impedit veniam ",
+      "Hanya sekali beli perangkat parabola atau antena digital dan set top box ",
     image: "/images/services/2.svg",
     alt: "Service description",
   },
   {
-    title: "Neque numquam",
+    title: "Teknisi berpengalaman",
     description:
-      "Accusantium eius omnis minus debitis est odio earum labore ad itaque mollitia",
+      "Teknisi kami sudah berpengalaman dalam bidang antena parabola lebih dari 5 tahun",
     image: "/images/services/3.svg",
     alt: "Service description",
   },
   {
-    title: "Vero animi",
+    title: "Harga kompetitif ",
     description:
-      "Dolores nemo labore soluta incidunt cumque repellat quod ducimus explicabo",
+      "Harga bersaing dan bersahabat",
     image: "/images/services/4.svg",
     alt: "Service description",
   },
   {
-    title: "Repudiandae pariatur",
+    title: "Produk bergaransi",
     description:
-      "voluptatum ex molestiae quae alias quasi eum magnam maxime autem atque",
+      "Receiver dekoder dan stb bergaransi toko dan distributor ",
     image: "/images/services/5.svg",
     alt: "Service description",
   },
   {
-    title: "Placeat voluptas",
+    title: "Bebas iuran",
     description:
-      "vitae iure impedit magni consequuntur nihil consectetur laboriosam perspiciatis",
+      "Tanpa iuran bulan",
     image: "/images/services/6.svg",
     alt: "Service description",
   },
@@ -48,11 +48,10 @@ export function Services() {
   return (
     <div className="bg-gray-50 dark:bg-neutral-900" id="services">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-16 text-center">
-        <h2 className="text-4xl font-bold">What is Halley?</h2>
+        <h2 className="text-4xl font-bold">Layanan Antena TV Digital dan Parabola</h2>
 
         <p className="pt-6 pb-6 text-base max-w-2xl text-center m-auto dark:text-neutral-400">
-          Halley is consectetur Obcaecati veniam explicabo perspiciatis sapiente
-          saepe sequi atque aut ullam aliquam.
+        Kami melayani pemasangan antena tv digital dan parabola jaringan satelit parabola Telkom, Chinasat, Ses9, Measat, Asiasat, Thaicom, Intelsat, ST2 dll, dengan berbagai keunggulan sebagai berikut.
         </p>
       </div>
 

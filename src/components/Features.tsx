@@ -3,37 +3,43 @@ import { CheckIcon } from "@heroicons/react/24/solid";
 
 const contents = [
   {
-    title: "Dashboard",
+    title: "Antena Digital",
     description:
-      "Euismod fames in felis ornare interdum phasellus imperdiet habitant, elementum leo lobortis facilisis suscipit nullam.",
+      "Antena TV Digital & Set Top Box.",
     features: [
-      "Lacus eu mauris quisque tortor torquent",
-      "Lorem ipsum dolor sit amet consectetur",
-      "Lacus eu mauris quisque tortor torquent",
+      "1 bh antena digital",
+      "1 bh set top box",
+      "10 meter kabel coacxial",
+      "Include pemasangan",
     ],
     image: "/images/features/dashboard.svg",
     order: false,
   },
   {
-    title: "Products",
+    title: "Parabola Mini",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga natus at modi ea tempore sapiente optio, quas sint nobis pariatur.",
+      "Parabola mini TV Islam , K-Vision , Nex Parabola , Tanaka Nusantara , dll.",
     features: [
-      "But I must explain to you how all this mistaken",
-      "Voluptatum deleniti atque corrupti quos",
-      "He endures pains to avoid worse pains",
+      "1 bh antena parabola min",
+      "1 bh receiver atau decoder MPEG4/HDMI",
+      "1 bh LNB Ku-Band",
+      "15 meter kabel coaxcial",
+      "Include pemasangan",
     ],
     image: "/images/features/product.svg",
     order: true,
   },
   {
-    title: "Inventory",
+    title: "Parabola Besar ",
     description:
-      "Porta facilisis ullamcorper rutrum erat luctus aliquam phasellus pharetra fusce, aliquet montes turpis mus habitasse lectus lacinia.",
+      "Parabola solid atau jaring untuk tracking satelit Telkom, Asiasat, Chinasat, Intelsat, Thaicom, dll.",
     features: [
-      "Sed ut perspiciatis unde omnis iste natus",
-      "Quis autem vel eum iure reprehenderit",
-      "Consequuntur magni dolores eos qui ratione",
+      "1 bh antena parabola besar solid atau jaring",
+      "1 bh receiver atau decoder MPEG4 / HDMI",
+      "1 bh LNB C-Band",
+      "15 meter kabel coaxcial",
+      "1 meter pipa tiang besi",
+      "Include pemasangan",
     ],
     image: "/images/features/inventory.svg",
     order: false,
@@ -46,8 +52,7 @@ export function Features() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 gap-x-40 pt-16 pb-16">
         <h2 className="text-4xl font-bold text-center">Features</h2>
         <p className="pt-6 text-base max-w-2xl text-center m-auto dark:text-neutral-400">
-          Halley nunc pulvinar lobortis duis. Leo mollis neque ullamcorper
-          aliquam sem nullam, elementum vestibulum augue placerat.
+        Berbagai pilihan paket pasang antena tv digital dan parabola , diantaranya sebagai berikut ,
         </p>
 
         {contents.map((content) => (

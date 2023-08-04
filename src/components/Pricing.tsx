@@ -4,192 +4,181 @@ import { CheckIcon } from "@heroicons/react/24/solid";
 
 const products = [
   {
-    title: "Hobby",
-    price: 12,
-    currency: "$",
-    frecuency: "month",
-    description: "All the features you need to grow your business.",
+    title: "Paket A",
+    price: 750,
+    currency: "IDR. ",
+    frecuency: "normal",
+    description: "Paket parabola mini TV Islam.",
     features: [
-      "Unlimited vouchers ∞",
-      "02 users",
-      "Point of sale",
-      "Customers",
+      "1 bh antena parabola mini",
+      "1 bh receiver decoder MPEG4 / HDMI",
+      "1 bh lnb ku-band",
+      "15 meter kabel coaxcial",
+      "Include pemasangan",
     ],
-    href: "#",
-    cta: "Buy Hobby",
+    href: "https://bit.ly/3LETxZR",
+    cta: "Buy Paket A",
     mostPopular: false,
   },
   {
-    title: "Hobby",
-    price: 120,
-    currency: "$",
-    frecuency: "year",
-    description: "All the features you need to grow your business.",
+    title: "Paket A",
+    price: 700,
+    currency: "IDR. ",
+    frecuency: "promo",
+    description: "Paket parabola mini TV Islam",
     features: [
-      "Unlimited vouchers ∞",
-      "02 users",
-      "Point of sale",
-      "Customers",
+      "1 bh antena parabola mini",
+      "1 bh receiver decoder MPEG4 / HDMI",
+      "1 bh lnb ku-band",
+      "15 meter kabel coaxcial",
+      "Include pemasangan",
     ],
-    href: "#",
-    cta: "Buy Hobby",
+    href: "https://bit.ly/3LETxZR",
+    cta: "Buy Paket A",
     mostPopular: false,
   },
   {
-    title: "Freelancer",
-    price: 24,
-    currency: "$",
-    frecuency: "month",
-    description: "All the features you need to grow your business.",
+    title: "Paket B",
+    price: 850,
+    currency: "IDR. ",
+    frecuency: "normal",
+    description: "Paket parabola mini K-Vison / Nex / Tanaka Nusantara.",
     features: [
-      "Unlimited vouchers ∞",
-      "04 users",
-      "02 warehouses",
-      "Dashboard",
-      "Point of sale",
+      "1 bh antena parabola mini",
+      "1 bh receiver decoder MPEG4 / HDMI",
+      "1 bh lnb ku-band",
+      "15 meter kabel coaxcial",
+      "Include pemasangan",
     ],
-    href: "#",
-    cta: "Buy Freelancer",
+    href: "https://bit.ly/3LETxZR",
+    cta: "Buy Paket B",
     mostPopular: true,
   },
   {
-    title: "Freelancer",
-    price: 240,
-    currency: "$",
-    frecuency: "year",
-    description: "All the features you need to grow your business.",
+    title: "Paket B",
+    price: 800,
+    currency: "IDR. ",
+    frecuency: "promo",
+    description: "Paket parabola mini K-Vison / Nex / Tanaka Nusantara.",
     features: [
-      "Unlimited vouchers ∞",
-      "04 users",
-      "02 warehouses",
-      "Dashboard",
-      "Point of sale",
+      "1 bh antena parabola mini",
+      "1 bh receiver decoder MPEG4 / HDMI",
+      "1 bh lnb ku-band",
+      "15 meter kabel coaxcial",
+      "Include pemasangan",
     ],
-    href: "#",
-    cta: "Buy Freelancer",
+    href: "https://bit.ly/3LETxZR",
+    cta: "Buy Paket B",
     mostPopular: true,
   },
   {
-    title: "Startup",
-    price: 32,
-    currency: "$",
-    frecuency: "month",
-    description: "All the features you need to grow your business.",
+    title: "Paket C",
+    price: 1500,
+    currency: "IDR. ",
+    frecuency: "normal",
+    description: "Paket parabola besar solid atau jaring.",
     features: [
-      "Unlimited vouchers ∞",
-      "08 users",
-      "04 warehouses",
-      "Dashboard",
-      "Point of sale",
-      "Finance",
-      "mobile App",
+      "1 bh antena parabola besar solid atau jaring",
+      "1 bh receiver decoder MPEG4 / HDMI",
+      "1 bh lnb C-band",
+      "15 meter kabel coaxcial",
+      "1 bh pipa tiang besi",
+      "Include pemasangan",
     ],
-    href: "#",
-    cta: "Buy Startup",
+    href: "https://bit.ly/3LETxZR",
+    cta: "Buy Paket C",
     mostPopular: false,
   },
   {
-    title: "Startup",
-    price: 320,
-    currency: "$",
-    frecuency: "year",
-    description: "All the features you need to grow your business.",
+    title: "Paket C",
+    price: 1450,
+    currency: "IDR. ",
+    frecuency: "promo",
+    description: "Paket parabola besar solid atau jaring.",
     features: [
-      "Unlimited vouchers ∞",
-      "08 users",
-      "04 warehouses",
-      "Dashboard",
-      "Point of sale",
-      "Finance",
-      "mobile App",
+      "1 bh antena parabola besar solid atau jaring",
+      "1 bh receiver decoder MPEG4 / HDMI",
+      "1 bh lnb ku-band",
+      "15 meter kabel coaxcial",
+      "1 bh pipa tiang besi",
+      "Include pemasangan",
     ],
-    href: "#",
-    cta: "Buy Startup",
+    href: "https://bit.ly/3LETxZR",
+    cta: "Buy Paket C",
     mostPopular: false,
   },
   {
-    title: "Enterprice",
-    price: 48,
-    currency: "$",
-    frecuency: "month",
-    description: "All the features you need to grow your business.",
+    title: "Paket D",
+    price: 500,
+    currency: "IDR. ",
+    frecuency: "normal",
+    description: "Paket antena digital.",
     features: [
-      "Unlimited vouchers ∞",
-      "16 users",
-      "08 warehouses",
-      "Dashboard",
-      "Point of sale",
-      "Inventory",
-      "Shopping",
-      "Finance",
-      "mobile App",
+      "1 bh antena digital ",
+      "1 bh set top box digital",
+      "10 meter kabel coaxcial",
+      "Include pemasangan",
     ],
-    href: "#",
-    cta: "Buy Enterprice",
+    href: "https://bit.ly/3LETxZR",
+    cta: "Buy Paket D",
     mostPopular: false,
   },
   {
-    title: "Enterprice",
-    price: 480,
-    currency: "$",
-    frecuency: "year",
-    description: "All the features you need to grow your business.",
+    title: "Paket D",
+    price: 475,
+    currency: "IDR. ",
+    frecuency: "promo",
+    description: "Paket antena digital.",
     features: [
-      "Unlimited vouchers ∞",
-      "16 users",
-      "08 warehouses",
-      "Dashboard",
-      "Point of sale",
-      "Inventory",
-      "Shopping",
-      "Finance",
-      "mobile App",
+      "1 bh antena digital ",
+      "1 bh set top box digital",
+      "10 meter kabel coaxcial",
+      "Include pemasangan",
     ],
-    href: "#",
-    cta: "Buy Enterprice",
+    href: "https://bit.ly/3LETxZR",
+    cta: "Buy Paket D",
     mostPopular: false,
   },
 ];
 
-type BillingInterval = "year" | "month";
+type BillingInterval = "promo" | "normal";
 
 export default function Pricing() {
   const [billingInterval, setBillingInterval] =
-    useState<BillingInterval>("month");
+    useState<BillingInterval>("normal");
   return (
     <div className="bg-gray-50 dark:bg-neutral-900" id="pricing">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-16">
         <h2 className="text-4xl font-bold text-center">Pricing</h2>
 
         <p className="pt-6 text-base max-w-2xl text-center m-auto dark:text-neutral-400">
-          We have the perfect product for your business, choose the product that
-          best suits you, Try Halley free for 14 days.
+          Daftar paket harga pemasangan antena digital dan parabola, semua perangkat menjadi hak milik selamanya.
         </p>
       </div>
 
       <div className="mx-auto px-4 sm:px-6 lg:px-8 sm:flex sm:flex-col sm:align-center">
         <div className="relative self-center text-base font-semibold mt-6 bg-neutral-200  dark:bg-neutral-800 rounded-lg flex sm:mt-8">
           <button
-            onClick={() => setBillingInterval("month")}
+            onClick={() => setBillingInterval("normal")}
             type="button"
             className={`${
-              billingInterval === "month"
+              billingInterval === "normal"
                 ? "relative w-1/2 bg-white dark:bg-neutral-600 text-neutral-900 dark:text-neutral-100"
                 : "ml-0.5 relative w-1/2 text-neutral-900 dark:text-neutral-400"
             } rounded-md m-1 py-2 whitespace-nowrap sm:w-auto sm:px-8`}
           >
-            Monthly billing
+            Harga Normal
           </button>
           <button
-            onClick={() => setBillingInterval("year")}
+            onClick={() => setBillingInterval("promo")}
             type="button"
             className={`${
-              billingInterval === "year"
+              billingInterval === "promo"
                 ? "relative w-1/2 bg-white dark:bg-neutral-600 text-neutral-900 dark:text-neutral-100"
                 : "ml-0.5 relative w-1/2 text-neutral-900 dark:text-neutral-400"
             } rounded-md m-1 py-2 whitespace-nowrap sm:w-auto sm:px-8`}
           >
-            Yearly billing
+            Harga Promo
           </button>
         </div>
       </div>
