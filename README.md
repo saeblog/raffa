@@ -1,64 +1,58 @@
 # ☄️ Plantilla Halley
 
-La plantilla Halley es una Single Page Application (SPA) desarrollada con Next.js, TypeScript y Tailwind CSS. Cuenta con un diseño responsivo que se adapta a diferentes tamaños de pantalla, soporte para temas claro y oscuro, menú de navegación fijo en la parte superior de la pantalla semitransparente, hero principal con mensaje llamativo e imagen destacada, sección de servicios con iconos y descripciones de los servicios ofrecidos, sección de características más destacadas del servicio con una lista de funcionalidades e imágenes, tabla de precios con switch por mes y año, sección de contacto con un formulario de contacto y enlaces a redes sociales, prefooter llamado de acción para confirmar venta, y footer con enlaces principales y links de redes sociales.
+Template Halley adalah Aplikasi Halaman Tunggal (SPA) yang dibuat dengan Next.js, TypeScript, dan Tailwind CSS. Ini memiliki desain responsif yang menyesuaikan dengan ukuran layar yang berbeda, dukungan untuk tema terang dan gelap, menu navigasi tetap di bagian atas layar semi-transparan, pahlawan utama dengan pesan mencolok dan gambar unggulan, bagian layanan dengan ikon dan deskripsi layanan ditawarkan, bagian dari fitur layanan yang paling menonjol dengan daftar fungsi dan gambar, tabel harga dengan peralihan berdasarkan bulan dan tahun, bagian kontak dengan formulir kontak dan tautan ke jejaring sosial, ajakan bertindak prefooter untuk mengonfirmasi penjualan, dan catatan kaki dengan tautan utama dan tautan dari jejaring sosial.
 
+# 🚀 Karakteristik
+Template Halley mencakup fitur-fitur utama berikut:
 
-# 🚀 Características
-La plantilla Halley incluye las siguientes características principales:
+- 📱 Desain responsif yang menyesuaikan dengan ukuran layar yang berbeda.
+- 🌓 Mendukung tema terang dan gelap.
+- 📍 Memperbaiki menu navigasi di bagian atas layar semi-transparan.
+- 🚀 Pahlawan Utama, dengan pesan menarik dan gambar unggulan.
+- 💼 Bagian layanan dengan ikon dan deskripsi layanan yang ditawarkan.
+- 🎉 Bagian fitur layanan yang paling menonjol dengan daftar fungsi dan gambar.
+- 💰 Tabel harga dengan peralihan berdasarkan bulan dan tahun.
+- ❓ Menu lipat pertanyaan yang sering diajukan.
+- 📞 Bagian kontak dengan formulir kontak dan tautan ke jejaring sosial.
+- 🛍️ Ajakan bertindak Prefooter untuk mengonfirmasi penjualan.
+- 📄 Footer dengan tautan utama dan tautan media sosial.
 
-- 📱 Diseño responsivo que se adapta a diferentes tamaños de pantalla.
-- 🌓 Soporta tema claro y oscuro.
-- 📍 Menú de navegación fijo en la parte superior de la pantalla semitransparente.
-- 🚀 Hero principal, con mensaje llamativo e imagen destacada.
-- 💼 Sección de servicios con iconos y descripciones de los servicios ofrecidos.
-- 🎉 Sección de características más destacadas del servicio con una lista de funcionalidades e imágenes.
-- 💰 Tabla de precios con switch por mes y año.
-- ❓ Menu plegable de preguntas frecuentes.
-- 📞 Sección de contacto con un formulario de contacto y enlaces a redes sociales.
-- 🛍️ Prefooter llamado de acción para confirmar venta.
-- 📄 Footer con enlaces principales y links de redes sociales.
+# 🛠️ Persyaratan
+- Node.js (versi 10 atau lebih tinggi)
+- NPM (atau Benang)
+- Pengetahuan dasar tentang Next.js dan Tailwind CSS
 
+# 📥 Instalasi
+1. Kloning repositori:
 
-# 🛠️ Requisitos
-- Node.js (versión 10 o superior)
-- NPM (o Yarn)
-- Conocimientos básicos de Next.js y Tailwind CSS
-
-
-# 📥 Instalación
-1. Clona el repositorio:
-
-````bash
+```` bash
 git clone https://github.com/humberni/halley
 ````
-2. Instala las dependencias:
+2. Instal dependensi:
 
-````bash
+```` bash
 npm install
 ````
-3. Ejecuta la aplicación en modo desarrollo:
+3. Jalankan aplikasi dalam mode pengembangan:
 
-````bash
+```` bash
 npm run dev
 ````
-4. Abre http://localhost:3000 en tu navegador.
+4. Buka http://localhost:3000 di browser Anda.
 
+# 🤝 Kontribusi
+Jika Anda ingin berkontribusi pada proyek ini, ikuti langkah-langkah di bawah ini:
 
-# 🤝 Contribución
-Si deseas contribuir a este proyecto, sigue los siguientes pasos:
+1. Fork repositori.
+2. Buat cabang baru dengan kontribusi Anda.
+3. Buat perubahan Anda.
+4. Buat permintaan tarik ke cabang `main` dari repositori asli.
 
-1. Haz un fork del repositorio.
-2. Crea una nueva rama con tu contribución.
-3. Realiza tus cambios.
-4. Haz un pull request a la rama `main` del repositorio original.
+# 📄 Lisensi
+Proyek ini dilisensikan di bawah Lisensi MIT.
 
-
-# 📄 Licencia
-Este proyecto se encuentra bajo la Licencia MIT.
-
-
-# 💻 Desarrollador
-- Humber Sanchez Nieto
+# 💻 Pengembang
+-Humber Sanchez Nieto
 - https://humbernieto.pro/
 
-¡Gracias por utilizar esta plantilla! Si tienes alguna pregunta o sugerencia, no dudes en crear un issue o contactar al desarrollador principal.
+Terima kasih telah menggunakan templat ini! Jika Anda memiliki pertanyaan atau saran, jangan ragu untuk membuat masalah atau hubungi pengembang utama.
