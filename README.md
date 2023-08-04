@@ -8,7 +8,7 @@ Template Halley mencakup fitur-fitur utama berikut:
 - 📱 Desain responsif yang menyesuaikan dengan ukuran layar yang berbeda.
 - 🌓 Mendukung tema terang dan gelap.
 - 📍 Memperbaiki menu navigasi di bagian atas layar semi-transparan.
-- 🚀 Pahlawan Utama, dengan pesan menarik dan gambar unggulan.
+- 🚀 Hero, dengan pesan menarik dan gambar unggulan.
 - 💼 Bagian layanan dengan ikon dan deskripsi layanan yang ditawarkan.
 - 🎉 Bagian fitur layanan yang paling menonjol dengan daftar fungsi dan gambar.
 - 💰 Tabel harga dengan peralihan berdasarkan bulan dan tahun.
