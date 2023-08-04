@@ -1,7 +1,7 @@
 name: Build and Deploy
 on:
   push:
-    branches: [master]
+    branches: [main]
 
 jobs:
   build-and-deploy:
@@ -19,7 +19,7 @@ jobs:
           key: ${{ runner.os }}-modules-${{ hashFiles('**/yarn.lock') }}
 
       - name: Install 🔧
-        run: yarn install
+        run: npm install
 
       - name: Build 🔧
         run: |
