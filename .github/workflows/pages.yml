@@ -19,11 +19,11 @@ jobs:
           key: ${{ runner.os }}-modules-${{ hashFiles('**/yarn.lock') }}
 
       - name: Install 🔧
-        run: npm install
+        run: yarn install
 
       - name: Build 🔧
         run: |
-          npm export
+          yarn export
           touch out/.nojekyll
         env:
           GITHUB_TOKEN: ${{ secrets.TOKEN_SECRET }}
