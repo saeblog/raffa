@@ -1,7 +1,7 @@
 {
   "name": "halley",
   "version": "0.1.0",
-  "homepage": "https://github.com/saeblog/raffaparabola",
+  "homepage": "https://saeblog.github.io/raffaparabola",
   "private": true,
   "scripts": {
     "predeploy": "npm run build",
