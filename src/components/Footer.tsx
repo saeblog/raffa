@@ -94,7 +94,7 @@ export default function Footer() {
           </Link>
 
           <p className="md:text-sm pt-4 w-auto sm:w-6/12 md:w-6/12 lg:w-8/12">
-            Layanan pemasangan , penjualan dan perbaikan antena parabola dan digital.
+            Layanan pemasangan, penjualan dan perbaikan antena parabola dan digital.
           </p>
 
           <div className="flex gap-2 pt-6 sm:pt-6 md:pt-6 lg:pt-12 max-w-[300px]">
