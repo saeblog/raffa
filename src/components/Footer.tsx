@@ -94,7 +94,7 @@ export default function Footer() {
           </Link>
 
           <p className="md:text-sm pt-4 w-auto sm:w-6/12 md:w-6/12 lg:w-8/12">
-            Layanan pemasangan , penjualan dan perbaikan antena digital dan parabola.
+            Layanan pemasangan, penjualan dan perbaikan antena digital dan parabola.
           </p>
 
           <div className="flex gap-2 pt-6 sm:pt-6 md:pt-6 lg:pt-12 max-w-[300px]">
@@ -160,16 +160,15 @@ export default function Footer() {
       </div>
 
       <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8 p-6 text-center border-t border-neutral-800">
-        &copy; Copyright {new Date().getFullYear()} .
         <Link
           href="https://www.parabola.id"
           target="_blank"
           className="text-neutral-300 dark:text-neutral-400 text-sm hover:text-rose-500 dark:hover:text-rose-500 transition duration-300"
         >
-           Raffa Parabola 
+        &copy; Copyright {new Date().getFullYear()} . Raffa Parabola  . All rights reserved.
         </Link>
-        . All rights reserved.
       </div>
+      
     </footer>
   );
 }
