@@ -84,7 +84,7 @@ export default function Footer() {
           <Link href="/">
             <Image
               className="h-8 w-auto"
-              src="/images/logos/logo-raffa.png"
+              src="./images/logos/logo-raffa.png"
               alt="Logo Raffa Parabola"
               width={150}
               height={150}
