@@ -5,7 +5,7 @@ const customers = [
     {
         name: "kvision",
         href: "#",
-        src: "https://saeblog.github.io/raffa/images/customers/kvision.webp",
+        src: "/images/customers/kvision.webp",
         alt: "kvision logo",
     },
     {

@@ -34,7 +34,7 @@ export function Hero() {
 
         <div className="flex items-center mt-12">
           <Image
-            src="https://saeblog.github.io/raffa/images/hero/hero.svg"
+            src="/images/hero/hero.svg"
             alt="Image hero description"
             width={1025}
             height={662}
