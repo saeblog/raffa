@@ -89,7 +89,7 @@ export default function Contact() {
             <a href="tel:51931999999">0811-222-1721</a>
           </div>
 
-        <div className="text-left py-10">
+        <div className="text-left py-5">
           <Link href="https://bit.ly/3LETxZR" target="_blank" rel="noreferrer noopener">
             <button className="bg-green-500 text-white rounded-full px-6 p-3 font-medium">
               Whatsapp
