@@ -88,15 +88,16 @@ export default function Contact() {
             <PhoneIcon className="w-4 h-4" />
             <a href="tel:51931999999">0811-222-1721</a>
           </div>
-        </div>
 
-      <div className="text-center pb-20">
-        <Link href="https://bit.ly/3LETxZR" target="_blank" rel="noreferrer noopener">
-          <button className="bg-green-500 text-white rounded-full px-6 p-3 font-medium">
-            Whatsapp
-          </button>
-        </Link>
-      </div>
+        <div className="text-center pb-20">
+          <Link href="https://bit.ly/3LETxZR" target="_blank" rel="noreferrer noopener">
+            <button className="bg-green-500 text-white rounded-full px-6 p-3 font-medium">
+              Whatsapp
+            </button>
+          </Link>
+    `   </div>
+          
+        </div>
         
         <div>
           {!isSubmitSuccessful && (
