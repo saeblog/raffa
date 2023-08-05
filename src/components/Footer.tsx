@@ -84,7 +84,7 @@ export default function Footer() {
           <Link href="/">
             <Image
               className="h-8 w-auto"
-              src="./images/logos/logo-raffa.png"
+              src="/images/logos/logo-raffa.png"
               alt="Logo Raffa Parabola"
               width={150}
               height={150}
@@ -160,13 +160,15 @@ export default function Footer() {
       </div>
 
       <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8 p-6 text-center border-t border-neutral-800">
+      &copy; Copyright {new Date().getFullYear()} - &nbsp;
         <Link
           href="https://www.parabola.id"
           target="_blank"
           className="text-neutral-300 dark:text-neutral-400 text-sm hover:text-rose-500 dark:hover:text-rose-500 transition duration-300"
         >
-          &copy; Copyright {new Date().getFullYear()}. Raffa Parabola - www.parabola.id - All rights reserved.
+           Raffa Parabola &nbsp;
         </Link>
+         - All rights reserved.
       </div>
     </footer>
   );
