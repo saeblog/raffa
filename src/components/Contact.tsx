@@ -99,7 +99,7 @@ export default function Contact() {
                 {...register("access_key")}
               />
               <input type="hidden" {...register("subject")} />
-              <input type="hidden" value="Halley" {...register("from_name")} />
+              <input type="hidden" value="Raffa" {...register("from_name")} />
               <input
                 type="checkbox"
                 id=""
