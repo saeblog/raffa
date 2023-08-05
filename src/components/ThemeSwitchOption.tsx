@@ -1,3 +1,5 @@
+// theme switch option
+
 import { useState, useEffect } from 'react'
 import { useTheme } from 'next-themes'
 
