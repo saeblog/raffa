@@ -13,12 +13,14 @@
     "@headlessui/react": "^1.7.4",
     "@heroicons/react": "^2.0.16",
     "@tailwindcss/typography": "^0.5.8",
+    "@vercel/analytics": "^1.0.1",
     "next": "^13.0.6",
     "next-themes": "^0.2.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-hook-form": "^7.39.3",
-    "use-web3forms": "^1.2.1"
+    "use-web3forms": "^1.2.1",
+    "vercel": "^31.2.2"
   },
   "devDependencies": {
     "@types/node": "^18.11.9",
