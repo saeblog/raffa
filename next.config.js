@@ -4,7 +4,8 @@ const nextConfig = {
 
   images: {
     domains: ["bio.sae.icu/raffa"],
-
+  },
+  
 // Add basePath
 basePath: '/github-pages',  
 
