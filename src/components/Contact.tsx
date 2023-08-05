@@ -88,9 +88,14 @@ export default function Contact() {
             <PhoneIcon className="w-4 h-4" />
             <a href="tel:51931999999">0811-222-1721</a>
           </div>
-
+          
         <div className="text-left py-5">
           <Link href="https://bit.ly/3LETxZR" target="_blank" rel="noreferrer noopener">
+
+            <button className="bg-green-700 dark:bg-white text-white dark:text-neutral-900 px-4 p-2 text-base font-medium dark:hover:bg-rose-500 hover:bg-rose-500 hover:text-white dark:hover:text-white rounded-full">
+              Whatsapp
+            </button>
+
             <button className="bg-green-500 text-white rounded-full px-6 p-3 font-medium">
               Whatsapp
             </button>
