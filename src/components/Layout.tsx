@@ -11,7 +11,7 @@ const Layout = (props: any) => {
   const meta = {
     title: "Raffa Parabola",
     description: `Layanan Pemasangan Antena TV Digital & Parabola. Dan Jual Antena Digital UHF, Parabola, Receiver, Set Top Box, LNB dan Parts lainnya.`,
-    image: "./images/seo/raffaparabola.webp",
+    image: "https://saeblog.github.io/raffa/images/seo/raffaparabola.webp",
     type: "website",
     ...customMeta,
   };
