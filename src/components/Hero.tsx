@@ -34,7 +34,11 @@ export function Hero() {
 
         <div className="flex items-center mt-12">
           <Image
+<<<<<<< HEAD
             src="/images/hero/hero.svg"
+=======
+            src="https://saeblog.github.io/raffa/images/hero/hero.svg"
+>>>>>>> 2d8831187fbb17d45c56868bb4cdd255617bf088
             alt="raffa parabola"
             width={1025}
             height={662}

@@ -33,8 +33,13 @@ export default function Navbar() {
                   <Link href="/">
                     <Image
                       className="block h-8 w-auto"
+<<<<<<< HEAD
                       src="/images/logos/parabolax.webp"
                       alt="raffa parabola"
+=======
+                      src="https://saeblog.github.io/raffa/images/logos/parabolax.webp"
+                      alt="logo parabola"
+>>>>>>> 2d8831187fbb17d45c56868bb4cdd255617bf088
                       width={150}
                       height={150}
                       quality={75}

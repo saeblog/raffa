@@ -84,7 +84,7 @@ export default function Footer() {
           <Link href="/">
             <Image
               className="h-8 w-auto"
-              src="/images/logos/logo-raffa.png"
+              src="./images/logos/logo-raffa.png"
               alt="Logo Raffa Parabola"
               width={150}
               height={150}
@@ -94,7 +94,7 @@ export default function Footer() {
           </Link>
 
           <p className="md:text-sm pt-4 w-auto sm:w-6/12 md:w-6/12 lg:w-8/12">
-            Layanan pemasangan, penjualan dan perbaikan antena parabola dan digital.
+            Layanan pemasangan , penjualan dan perbaikan antena parabola dan digital.
           </p>
 
           <div className="flex gap-2 pt-6 sm:pt-6 md:pt-6 lg:pt-12 max-w-[300px]">
@@ -166,10 +166,11 @@ export default function Footer() {
           target="_blank"
           className="text-neutral-300 dark:text-neutral-400 text-sm hover:text-rose-500 dark:hover:text-rose-500 transition duration-300"
         >
-           Raffa Parabola &nbsp;
+          &copy; Copyright {new Date().getFullYear()}. Raffa Parabola - www.parabola.id - All rights reserved.
         </Link>
          - All rights reserved.
       </div>
+      
     </footer>
   );
 }
