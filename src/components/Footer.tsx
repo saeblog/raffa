@@ -160,7 +160,7 @@ export default function Footer() {
       </div>
 
       <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8 p-6 text-center border-t border-neutral-800">
-        &copy; Copyright {new Date().getFullYear()}.
+        &copy; Copyright {new Date().getFullYear()} .
         <Link
           href="https://www.parabola.id"
           target="_blank"
