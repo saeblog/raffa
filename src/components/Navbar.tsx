@@ -33,7 +33,7 @@ export default function Navbar() {
                   <Link href="/">
                     <Image
                       className="block h-8 w-auto"
-                      src="/images/logos/parabolax.webp"
+                      src="./images/logos/parabolax.webp"
                       alt="logo sae"
                       width={150}
                       height={150}

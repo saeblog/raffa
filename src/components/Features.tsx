@@ -12,7 +12,7 @@ const contents = [
       "10 meter kabel coacxial",
       "Include pemasangan",
     ],
-    image: "/images/features/dashboard.svg",
+    image: "./images/features/dashboard.svg",
     order: false,
   },
   {
@@ -26,7 +26,7 @@ const contents = [
       "15 meter kabel coaxcial",
       "Include pemasangan",
     ],
-    image: "/images/features/product.svg",
+    image: "./images/features/product.svg",
     order: true,
   },
   {
@@ -41,7 +41,7 @@ const contents = [
       "1 meter pipa tiang besi",
       "Include pemasangan",
     ],
-    image: "/images/features/inventory.svg",
+    image: "./images/features/inventory.svg",
     order: false,
   },
 ];
