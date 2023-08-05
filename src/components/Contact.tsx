@@ -1,6 +1,6 @@
 import React from "react";
 import { useForm, useWatch } from "react-hook-form";
-
+import Link from "next/link";
 import { MapIcon } from "@heroicons/react/24/outline";
 import { EnvelopeIcon } from "@heroicons/react/24/outline";
 import { PhoneIcon } from "@heroicons/react/24/outline";
@@ -90,6 +90,14 @@ export default function Contact() {
           </div>
         </div>
 
+      <div className="text-center pb-20">
+        <Link href="https://bit.ly/3LETxZR" target="_blank" rel="noreferrer noopener">
+          <button className="bg-green-500 text-white rounded-full px-6 p-3 font-medium">
+            Whatsapp
+          </button>
+        </Link>
+      </div>
+        
         <div>
           {!isSubmitSuccessful && (
             <form onSubmit={handleSubmit(onSubmit)}>
