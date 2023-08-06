@@ -31,6 +31,54 @@ const Layout = (props: any) => {
         <meta property="og:description" content={meta.description} />
         <meta property="og:title" content={meta.title} />
         <meta property="og:image" content={meta.image} />
+
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{ __html: JSON.stringify({
+
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "Raffa Parabola",
+  "image": "https://saeblog.github.io/raffa/images/seo/raffaparabola.webp",
+  "@id": "https://www.parabola.id",
+  "url": "https://web.parabola.id",
+  "telephone": "0811-222-1721",
+  "priceRange": "250.000,- s/d 3.000.000,-",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Kopo",
+    "addressLocality": "Bandung",
+    "postalCode": "40233",
+    "addressCountry": "ID"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": -6.9423179,
+    "longitude": 107.5881214
+  },
+  "openingHoursSpecification": {
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday",
+      "Saturday",
+      "Sunday"
+    ],
+    "opens": "06:00",
+    "closes": "21:00"
+  },
+  "sameAs": [
+    "https://www.facebook.com/raffaparabola/",
+    "https://www.instagram.com/raffa_parabola/",
+    "https://www.linkedin.com/in/raffaparabola/"
+  ] 
+
+  })
+ }}
+/>
       </Head>
 
       <main id="skip" className="bg-white dark:bg-neutral-900">
