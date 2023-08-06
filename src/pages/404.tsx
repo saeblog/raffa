@@ -16,7 +16,7 @@ export default function Home() {
           URL?
         </p>
         <Image
-          src="/images/404/404.svg"
+          src="https://saeblog.github.io/raffa/images/404/404.svg"
           alt="Image 404"
           width={1920}
           height={1080}
