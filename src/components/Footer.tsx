@@ -166,7 +166,7 @@ export default function Footer() {
           target="_blank"
           className="text-neutral-300 dark:text-neutral-400 text-sm hover:text-rose-500 dark:hover:text-rose-500 transition duration-300"
         >
-          &copy; Copyright {new Date().getFullYear()}. Raffa Parabola - www.parabola.id - All rights reserved.
+         Raffa Parabola 
         </Link>
          - All rights reserved.
       </div>
