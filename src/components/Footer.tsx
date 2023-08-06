@@ -14,8 +14,8 @@ const social = [
         />
       </svg>
     ),
-    label: "facebook",
   },
+
   {
     name: "instagram",
     href: "https://www.instagram.com/raffa_parabola/",
@@ -27,7 +27,6 @@ const social = [
         />
       </svg>
     ),
-    label: "instagram",
   },
 
   {
@@ -41,7 +40,6 @@ const social = [
         />
       </svg>
     ),
-    label: "youtube",
   },
 
   {
@@ -55,7 +53,6 @@ const social = [
         />
       </svg>
     ),
-    label: "linkedin",
   },
 ];
 
