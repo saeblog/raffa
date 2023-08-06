@@ -52,6 +52,7 @@ const social = [
         />
       </svg>
     ),
+    label: "linkedin",
   },
 ];
 
