@@ -6,42 +6,42 @@ const services = [
     description:
       "Semua perangkat parabola menjadi hak milik selamanya",
     image: "https://saeblog.github.io/raffa/images/services/1.svg",
-    alt: "Service description",
+    alt: "antena parabola menjadi hak milik",
   },
   {
     title: "Sekali bayar",
     description:
       "Hanya sekali beli perangkat parabola atau antena digital dan set top box ",
     image: "https://saeblog.github.io/raffa/images/services/2.svg",
-    alt: "Service description",
+    alt: "antena parabola sekali bayar",
   },
   {
     title: "Teknisi berpengalaman",
     description:
       "Teknisi kami sudah berpengalaman dalam bidang antena parabola lebih dari 5 tahun",
     image: "https://saeblog.github.io/raffa/images/services/3.svg",
-    alt: "Service description",
+    alt: "teknisi antena parabola berpengalaman",
   },
   {
     title: "Harga kompetitif ",
     description:
       "Harga bersaing dan bersahabat",
     image: "https://saeblog.github.io/raffa/images/services/4.svg",
-    alt: "Service description",
+    alt: "harga kompetitif",
   },
   {
     title: "Produk bergaransi",
     description:
       "Receiver dekoder dan stb bergaransi toko dan distributor ",
     image: "https://saeblog.github.io/raffa/images/services/5.svg",
-    alt: "Service description",
+    alt: "produk stb dan receiver bergaransi",
   },
   {
     title: "Bebas iuran",
     description:
-      "Tanpa iuran bulan",
+      "Tanpa iuran bulanan",
     image: "https://saeblog.github.io/raffa/images/services/6.svg",
-    alt: "Service description",
+    alt: "bebas iuran bulanan",
   },
 ];
 export function Services() {
