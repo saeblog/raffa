@@ -7,7 +7,6 @@ import Faq from "../components/Faq";
 import Customers from "../components/Customers";
 import ContactForm from "../components/ContactForm";
 
-
 export default function Home() {
   return (
     <Layout>
