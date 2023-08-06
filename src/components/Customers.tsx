@@ -29,13 +29,13 @@ const customers = [
     {
         name: "matrix",
         href: "#",
-        src: "https://saeblog.github.io/images/customers/matrix.webp",
+        src: "https://saeblog.github.io/raffa/images/customers/matrix.webp",
         alt: "matrix logo",
     },
     {
         name: "kaonsat",
         href: "#",
-        src: "https://saeblog.github.io/images/customers/kaonsat.webp",
+        src: "https://saeblog.github.io/raffa/images/customers/kaonsat.webp",
         alt: "kaonsat logo",
     }
 
