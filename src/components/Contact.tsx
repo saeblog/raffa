@@ -70,8 +70,7 @@ export default function Contact() {
         <div>
           <h2 className="text-lg font-bold">Contact Raffa Parabola</h2>
           <p className="max-w-sm mt-4 mb-4 dark:text-neutral-400">
-            Have something to say? We are here to help. Fill up the form or send
-            email or phone / whatsapp.
+          Silakan isi kontak @email  atau chat whatsapp untuk menghubungi admin . Jika tidak ada halangan, admin akan langsung merespon pesan yang Anda kirimkan. Terima kasih.
           </p>
 
           <div className="flex items-center mt-8 space-x-2 text-dark-600 dark:text-neutral-400">
