@@ -14,6 +14,7 @@ const social = [
         />
       </svg>
     ),
+    label: "facebook",
   },
   {
     name: "instagram",
@@ -26,6 +27,7 @@ const social = [
         />
       </svg>
     ),
+    label: "instagram",
   },
 
   {
@@ -39,6 +41,7 @@ const social = [
         />
       </svg>
     ),
+    label: "youtube",
   },
 
   {
