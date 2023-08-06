@@ -105,6 +105,7 @@ export default function Contact() {
 
         <div>
           {!isSubmitSuccessful && (
+            
             <form onSubmit={handleSubmit(onSubmit)}>
              
               <input
@@ -223,6 +224,7 @@ export default function Contact() {
                 )}
               </button>
             </form>
+
           )}
 
           {isSubmitSuccessful && isSuccess && (
