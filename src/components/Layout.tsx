@@ -24,7 +24,7 @@ const Layout = (props: any) => {
         <meta content={meta.description} name="description" />
         <meta
           property="og:url"
-          content={`https://www.parabola.id${router.asPath}`}
+          content={`https://web.parabola.id${router.asPath}`}
         />
           <meta property="og:type" content="website" />
         <meta property="og:site_name" content={meta.title} />
