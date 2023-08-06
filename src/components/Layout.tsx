@@ -11,11 +11,7 @@ const Layout = (props: any) => {
   const meta = {
     title: "Raffa Parabola",
     description: `Layanan Pemasangan Antena TV Digital & Parabola. Dan Jual Antena Digital UHF, Parabola, Receiver, Set Top Box, LNB dan Parts lainnya.`,
-<<<<<<< HEAD
     image: "/images/seo/raffaparabola.webp",
-=======
-    image: "https://saeblog.github.io/raffa/images/seo/raffaparabola.webp",
->>>>>>> 2d8831187fbb17d45c56868bb4cdd255617bf088
     type: "website",
     ...customMeta,
   };
@@ -24,11 +20,7 @@ const Layout = (props: any) => {
       <Head>
         <title>{meta.title}</title>
         <meta name="robots" content="follow, index" />
-<<<<<<< HEAD
         <link href="/favicon.ico" rel="shortcut icon" />
-=======
-        <link href="https://saeblog.github.io/raffa/favicon.ico" rel="shortcut icon" />
->>>>>>> 2d8831187fbb17d45c56868bb4cdd255617bf088
         <meta content={meta.description} name="description" />
         <meta
           property="og:url"

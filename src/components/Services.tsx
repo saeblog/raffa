@@ -5,66 +5,42 @@ const services = [
     title: "Hak milik",
     description:
       "Semua perangkat parabola menjadi hak milik selamanya",
-<<<<<<< HEAD
     image: "/images/services/1.svg",
-=======
-    image: "https://saeblog.github.io/raffa/images/services/1.svg",
->>>>>>> 2d8831187fbb17d45c56868bb4cdd255617bf088
     alt: "Service description",
   },
   {
     title: "Sekali bayar",
     description:
       "Hanya sekali beli perangkat parabola atau antena digital dan set top box ",
-<<<<<<< HEAD
     image: "/images/services/2.svg",
-=======
-    image: "https://saeblog.github.io/raffa/images/services/2.svg",
->>>>>>> 2d8831187fbb17d45c56868bb4cdd255617bf088
     alt: "Service description",
   },
   {
     title: "Teknisi berpengalaman",
     description:
       "Teknisi kami sudah berpengalaman dalam bidang antena parabola lebih dari 5 tahun",
-<<<<<<< HEAD
     image: "/images/services/3.svg",
-=======
-    image: "https://saeblog.github.io/raffa/images/services/3.svg",
->>>>>>> 2d8831187fbb17d45c56868bb4cdd255617bf088
     alt: "Service description",
   },
   {
     title: "Harga kompetitif ",
     description:
       "Harga bersaing dan bersahabat",
-<<<<<<< HEAD
     image: "/images/services/4.svg",
-=======
-    image: "https://saeblog.github.io/raffa/images/services/4.svg",
->>>>>>> 2d8831187fbb17d45c56868bb4cdd255617bf088
     alt: "Service description",
   },
   {
     title: "Produk bergaransi",
     description:
       "Receiver dekoder dan stb bergaransi toko dan distributor ",
-<<<<<<< HEAD
     image: "/images/services/5.svg",
-=======
-    image: "https://saeblog.github.io/raffa/images/services/5.svg",
->>>>>>> 2d8831187fbb17d45c56868bb4cdd255617bf088
     alt: "Service description",
   },
   {
     title: "Bebas iuran",
     description:
       "Tanpa iuran bulan",
-<<<<<<< HEAD
     image: "/images/services/6.svg",
-=======
-    image: "https://saeblog.github.io/raffa/images/services/6.svg",
->>>>>>> 2d8831187fbb17d45c56868bb4cdd255617bf088
     alt: "Service description",
   },
 ];

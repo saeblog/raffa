@@ -11,31 +11,31 @@ const customers = [
     {
         name: "nex parabola",
         href: "#",
-        src: "./images/customers/nex.webp",
+        src: "/images/customers/nex.webp",
         alt: "nex parabola logo",
     },
     {
         name: "tanaka",
         href: "#",
-        src: "./images/customers/tanaka.webp",
+        src: "/images/customers/tanaka.webp",
         alt: "tanaka logo",
     },
     {
         name: "venus",
         href: "#",
-        src: "./images/customers/venus.webp",
+        src: "/images/customers/venus.webp",
         alt: "venus logo",
     },
     {
         name: "matrix",
         href: "#",
-        src: "./images/customers/matrix.webp",
+        src: "/images/customers/matrix.webp",
         alt: "matrix logo",
     },
     {
         name: "kaonsat",
         href: "#",
-        src: "./images/customers/kaonsat.webp",
+        src: "/images/customers/kaonsat.webp",
         alt: "kaonsat logo",
     }
 

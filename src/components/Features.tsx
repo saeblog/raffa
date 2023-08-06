@@ -12,11 +12,7 @@ const contents = [
       "10 meter kabel coacxial",
       "Include pemasangan",
     ],
-<<<<<<< HEAD
     image: "/images/features/dashboard.svg",
-=======
-    image: "https://saeblog.github.io/raffa/images/features/dashboard.svg",
->>>>>>> 2d8831187fbb17d45c56868bb4cdd255617bf088
     order: false,
   },
   {
@@ -30,11 +26,7 @@ const contents = [
       "15 meter kabel coaxcial",
       "Include pemasangan",
     ],
-<<<<<<< HEAD
     image: "/images/features/product.svg",
-=======
-    image: "https://saeblog.github.io/raffa/images/features/product.svg",
->>>>>>> 2d8831187fbb17d45c56868bb4cdd255617bf088
     order: true,
   },
   {
@@ -49,11 +41,7 @@ const contents = [
       "1 meter pipa tiang besi",
       "Include pemasangan",
     ],
-<<<<<<< HEAD
     image: "/images/features/inventory.svg",
-=======
-    image: "https://saeblog.github.io/raffa/images/features/inventory.svg",
->>>>>>> 2d8831187fbb17d45c56868bb4cdd255617bf088
     order: false,
   },
 ];
