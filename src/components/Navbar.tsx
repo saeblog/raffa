@@ -29,7 +29,7 @@ export default function Navbar() {
           <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
             <div className="relative flex h-16 items-center justify-between">
               <div className="flex flex-1 items-center justify-start">
-                <div className="flex flex-shrink-0 items-center md:pl-0">
+                <div className="flex flex-shrink-0 items-center md:pl-0 gap-2">
                   <Link href="/">
                     <Image
                       className="block h-8 w-auto"
@@ -41,6 +41,7 @@ export default function Navbar() {
                       sizes="100vw"
                     />
                   </Link>
+                 <strong>Raffa Parabola</strong>
                 </div>
 
                 <div className="hidden sm:ml-6 sm:block">
