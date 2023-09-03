@@ -29,7 +29,7 @@ Template Halley mencakup fitur-fitur utama berikut:
 1. Kloning repositori:
 
 ```` bash
-git clone https://github.com/humberni/halley
+git clone https://github.com/saeblog/raffa
 ````
 
 2. Instal dependensi:
@@ -61,8 +61,6 @@ Jika Anda ingin berkontribusi pada proyek ini, ikuti langkah-langkah di bawah in
 Proyek ini dilisensikan di bawah Lisensi MIT.
 
 # 💻 Pengembang
-
--Humber Sanchez Nieto
 
 - https://humbernieto.pro/
 
