@@ -66,7 +66,7 @@ export default function Navbar() {
 
                 <div className="absolute inset-y-0 right-10 sm:right-0 flex items-center gap-2">
                   <Link
-                    href="https://bit.ly/3LETxZR"
+                    href="https://shorturl.at/TJNDs"
                     target="_blank"
                     rel="noreferrer noopener"
                     className="hidden sm:block"
